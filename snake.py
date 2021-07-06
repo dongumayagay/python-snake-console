@@ -48,6 +48,7 @@ while True:
     snake.insert(0, new_head)
 
     if snake[0] == food:
+        score+=1
         spawn_food()
     else:
         tail = snake.pop()
