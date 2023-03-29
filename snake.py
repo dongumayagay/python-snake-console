@@ -55,4 +55,4 @@ while True:
         s.addch(int(tail[0]), int(tail[1]), ' ')
 
     s.addch(int(snake[0][0]), int(snake[0][1]), 'O')
-pritn('GAMEOVER')
+print('GAMEOVER')
